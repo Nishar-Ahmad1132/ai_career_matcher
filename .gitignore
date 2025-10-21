@@ -1,0 +1,30 @@
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+
+# Backend data / large files
+**/data/
+**/*.faiss
+**/*.npy
+**/*.csv
+**/*.jsonl
+
+
+
+
+# Jupyter notebooks checkpoints
+**/.ipynb_checkpoints/
+
+# Node / frontend
+**/node_modules/
+**/build/
+**/dist/
+
+# IDE / OS files
+**/.vscode/
+**/.idea/
+**/.DS_Store
+
+# Logs
+**/*.log

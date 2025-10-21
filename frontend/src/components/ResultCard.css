@@ -1,0 +1,83 @@
+.result-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.card-header .company {
+  margin: 2px 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.location {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.skill-badge {
+  background: #e0f7fa;
+  color: #00796b;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-btn {
+  background: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.view-btn:hover {
+  background: #1669c1;
+}
+
+.match-score {
+  font-weight: bold;
+  color: #43a047;
+  font-size: 14px;
+}
