@@ -40,5 +40,3 @@ AI Career Matcher is a full-stack application that leverages **AI and machine le
 ### Database / Storage
 - Local CSV / JSON dataset for jobs
 - FAISS index for vector search
-
----
