@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:8080"; // Your FastAPI backend
+const BASE_URL = "http://127.0.0.1:9000"; 
 
 export const matchResume = async (file, top_k = 5) => {
   const formData = new FormData();
